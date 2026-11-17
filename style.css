@@ -316,3 +316,98 @@ body {
   .nav-links a { font-size: 0.85rem; }
   .hero { padding: 3rem 1.25rem 2.5rem; }
 }
+
+/* Clients within a job */
+.client {
+  margin: 1rem 0 0;
+  padding: 0.9rem 0 0;
+  border-top: 1px solid var(--border);
+}
+
+.client-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.15rem 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.client-name {
+  font-size: 1.02rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.client-role {
+  font-size: 0.9rem;
+  color: var(--text-dim);
+}
+
+.client-role::before {
+  content: "\00b7";
+  margin-right: 0.6rem;
+}
+
+.client-dates {
+  font-family: var(--mono);
+  font-size: 0.76rem;
+  color: var(--accent);
+  margin-left: auto;
+}
+
+@media (max-width: 560px) {
+  .client-dates { margin-left: 0; flex-basis: 100%; }
+}
+
+/* Education */
+.edu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.edu-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem 1.25rem;
+}
+
+.edu-item h3 { margin: 0 0 0.25rem; font-size: 1.02rem; }
+.edu-item p { margin: 0; color: var(--text-dim); font-size: 0.92rem; }
+
+/* Client group: visually nested under the job */
+.clients {
+  margin: 0.9rem 0 0.5rem 0.25rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--accent);
+}
+
+.clients-label {
+  margin: 0 0 0.2rem;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.clients .client:first-of-type {
+  border-top: 0;
+  padding-top: 0.3rem;
+  margin-top: 0;
+}
+
+.client-tag {
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--accent-soft);
+  padding: 0.1rem 0.4rem;
+  border-radius: 4px;
+}

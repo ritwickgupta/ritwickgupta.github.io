@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ritwick Gupta</title>
+<meta name="description" content="Ritwick Gupta — Engineering leader and backend software engineer based in Tokyo, Japan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="container">
+    <a class="brand" href="#top">RG</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="top">
+
+  <section class="hero container" id="about">
+    <p class="eyebrow">Hello, I'm</p>
+    <h1>Ritwick Gupta</h1>
+    <p class="role">Engineering Team Lead &amp; Backend Software Engineer</p>
+    <p class="bio">
+      I build and lead teams that ship reliable, distributed backend systems — currently as
+      Team Lead at <strong>CADDi</strong> in Tokyo, where I run the Workflow Engine team and manage
+      engineers while shipping Temporal-based data platforms. Over the past decade I've worked across
+      cloud platforms (GCP, AWS), backend frameworks (SpringBoot, Flask, Axum), and taken on
+      engineering management, tech lead, and platform architecture roles for clients including
+      Ford Motor Company, Merck, and Royal Bank of Canada.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="mailto:ritwick_gupta@hotmail.com">Get in touch</a>
+      <a class="btn btn-secondary" href="https://www.linkedin.com/in/ritwickgupta/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-secondary" href="https://github.com/ritwickgupta" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+
+  <section class="section" id="experience">
+    <div class="container">
+      <h2>Experience</h2>
+      <ol class="timeline">
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">May 2025 — Present</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Team Lead</h3>
+            <p class="timeline-org">CADDi · Tokyo, Japan</p>
+            <ul>
+              <li>Lead engineering management for 3 engineers — one-on-ones, career development, performance evaluations — while aligning quarterly roadmaps with other leads.</li>
+              <li>Leading development of a self-service client data-deletion platform on Temporal, enabling compliant data deletion across distributed backend systems via durable workflow execution.</li>
+              <li>Team lead for the Workflow Engine team; primary point of contact for stakeholder requests and roadmap decisions.</li>
+            </ul>
+            <p class="timeline-tech">Rust · Kubernetes · Temporal · ArgoCD · GitHub Actions</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Apr 2024 — Mar 2025</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Engineering Manager</h3>
+            <p class="timeline-org">Ernst &amp; Young · Toronto, Canada</p>
+            <p class="timeline-sub">Client: Merck · Role: Tech Lead (Oct 2024 – Mar 2025)</p>
+            <ul>
+              <li>Designed a semantic search solution for data products using an LLM and vector store, improving data discovery and retrieval.</li>
+              <li>Optimized the product search backend, reducing unnecessary API calls and improving response time by 30%.</li>
+              <li>Fine-tuned OpenSearch query caching and indexing strategies to reduce latency and enrich search metadata.</li>
+            </ul>
+            <p class="timeline-tech">OpenSearch · Python · Flask</p>
+            <p class="timeline-sub" style="margin-top:0.75rem;">Paternal leave — Apr 2024 – Sept 2024</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Mar 2021 — Apr 2024</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Senior Software Engineer</h3>
+            <p class="timeline-org">Nuvalence.io (acquired by Ernst &amp; Young) · Toronto, Canada</p>
+
+            <p class="timeline-sub">Client: Ford Motor Company · Role: Tech Lead (Feb 2023 – Mar 2024)</p>
+            <ul>
+              <li>Led a team of seven to build a domain-driven backend architecture for APIs on Google Cloud.</li>
+              <li>Built reverse-ETL pipelines on Cloud Data Fusion to move data from BigQuery into CloudSQL.</li>
+              <li>Designed Datadog dashboards to monitor system health, and owned project delivery estimates and stakeholder communication across eight sprint months.</li>
+            </ul>
+            <p class="timeline-tech">GCP · Cloud Run · CloudSQL · BigQuery · Cloud Data Fusion · SpringBoot · Gradle</p>
+
+            <p class="timeline-sub" style="margin-top:0.75rem;">Client: Ford Motor Company · Role: Platform Developer (Feb 2022 – Dec 2022)</p>
+            <ul>
+              <li>Spearheaded a GCP cloud-native architecture for an asynchronous attribute-based notification service using WebSocket, gRPC, and push notifications.</li>
+              <li>Scaled the notification service to a multi-instance architecture on Cloud Run using a Pub/Sub pattern on Redis for inter-service communication.</li>
+              <li>Introduced Terraform for all cloud infrastructure and built the CI/CD pipeline in Tekton.</li>
+            </ul>
+            <p class="timeline-tech">GCP · Cloud Run · Pub/Sub · Redis · MongoDB · SpringBoot · Gradle</p>
+
+            <p class="timeline-sub" style="margin-top:0.75rem;">Client: WorkMarket · Role: Lead Developer (Mar 2021 – Jan 2022)</p>
+            <ul>
+              <li>Notified and purged roughly half a million users and 100k+ companies via scheduled jobs to fulfill GDPR compliance.</li>
+              <li>Implemented cron jobs to notify users before suspension due to inactivity, working across cross-functional teams.</li>
+            </ul>
+            <p class="timeline-tech">SpringBoot · Spring · MySQL</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Mar 2020 — Mar 2021</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Software Architect</h3>
+            <p class="timeline-org">Phlyt.io (acquired by Red Hat) · Toronto, Canada</p>
+            <p class="timeline-sub">Client: Royal Bank of Canada · Role: Software Consultant</p>
+            <ul>
+              <li>Acted as client lead for the RBC account, managing three developers and tracking deliverables.</li>
+              <li>Consulted with AWS Pipeline and DevOps teams, creating AWS migration tutorials for a smooth on-premises-to-cloud transition.</li>
+            </ul>
+            <p class="timeline-tech">AWS · CloudFormation · Terraform · SpringBoot</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Apr 2018 — Mar 2020</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Senior Software Developer</h3>
+            <p class="timeline-org">Capital One · Toronto, Canada</p>
+            <ul>
+              <li>Migrated micro-services and a file-transfer gateway from on-premises to AWS alongside vendor Costco.</li>
+              <li>Maintained Java SpringBoot microservices for cloud compatibility and built Jenkins pipelines for SNS, SQS, and Lambda.</li>
+            </ul>
+            <p class="timeline-tech">AWS · SNS · EC2 · IAM · SpringBoot</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Aug 2016 — Apr 2018</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Software Developer</h3>
+            <p class="timeline-org">Konrad Group · Toronto, Canada</p>
+            <p class="timeline-sub">Client: Symcor · Role: Lead Developer (Sep 2017 – Apr 2018)</p>
+            <ul>
+              <li>Delivered a SpringBoot REST API for cheque-related CRUD operations using JWT verification.</li>
+              <li>Cut API response time 75% and build time 70% via a Spring/Maven upgrade and Hibernate for direct DB access.</li>
+            </ul>
+            <p class="timeline-sub" style="margin-top:0.75rem;">Client: Ellis Don · Role: Lead Developer (Aug 2016 – Aug 2017)</p>
+            <ul>
+              <li>Led a four-person team through bi-weekly sprints, built a REST API layer over the business layer, and restructured the persistence layer.</li>
+            </ul>
+            <p class="timeline-tech">Spring · Maven · Hibernate</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Jan 2016 — Aug 2016</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Application Developer</h3>
+            <p class="timeline-org">Critical Mass · Toronto, Canada</p>
+            <p class="timeline-sub">Client: Nissan &amp; Infiniti Canada · Role: Associate Tech Lead</p>
+            <ul>
+              <li>Managed weekly sprints and deployments for the Nissan/Infiniti build-and-price car configurator, cutting deployment time 50% with a new release process.</li>
+              <li>Added mobile support to the configurator platform.</li>
+            </ul>
+            <p class="timeline-tech">Groovy on Grails · Java · Adobe AEM</p>
+          </div>
+        </li>
+
+        <li class="timeline-item">
+          <div class="timeline-meta">
+            <span class="timeline-date">Feb 2014 — Jan 2016</span>
+          </div>
+          <div class="timeline-body">
+            <h3>Software Developer</h3>
+            <p class="timeline-org">eThor.com · Toronto, Canada</p>
+            <ul>
+              <li>Built and maintained RESTful APIs for point-of-sale integration in an Agile environment.</li>
+              <li>Wrote point-of-sale scripting from scratch so the POS system and API backend could communicate seamlessly.</li>
+            </ul>
+            <p class="timeline-tech">Spring · Maven · Hibernate</p>
+          </div>
+        </li>
+
+      </ol>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <p>Java, Python, Rust, Groovy, SQL</p>
+        </div>
+        <div class="skill-card">
+          <h3>Frameworks</h3>
+          <p>SpringBoot, Spring, Groovy on Grails, Flask, Axum</p>
+        </div>
+        <div class="skill-card">
+          <h3>Cloud</h3>
+          <p>Google Cloud Platform, Amazon Web Services</p>
+        </div>
+        <div class="skill-card">
+          <h3>Databases</h3>
+          <p>MySQL, Postgres, MongoDB, Redis, BigQuery</p>
+        </div>
+        <div class="skill-card">
+          <h3>ETL</h3>
+          <p>Cloud Data Fusion</p>
+        </div>
+        <div class="skill-card">
+          <h3>Developer Tools</h3>
+          <p>Git, Docker, Terraform, Tekton, ArgoCD, Maven, Gradle, IntelliJ</p>
+        </div>
+        <div class="skill-card">
+          <h3>Languages Spoken</h3>
+          <p>English (Native), Hindi (Native), Japanese (Basic)</p>
+        </div>
+        <div class="skill-card">
+          <h3>Education</h3>
+          <p>M.Sc. Computer Science — University of Windsor<br>
+          B.Eng. Computer Engineering — University of Pune</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container contact-container">
+      <h2>Get in touch</h2>
+      <p class="contact-copy">Based in Japan and always happy to connect — reach out by email or on LinkedIn.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:ritwick_gupta@hotmail.com">ritwick_gupta@hotmail.com</a>
+        <a class="btn btn-secondary" href="https://www.linkedin.com/in/ritwickgupta/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn-secondary" href="https://github.com/ritwickgupta" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Ritwick Gupta</p>
+  </div>
+</footer>
+
+</body>
+</html>
